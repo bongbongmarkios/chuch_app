@@ -1,0 +1,286 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Modern Professional Color Palette */
+    --background: 0 0% 98%; /* Pure white background */
+    --foreground: 220 13% 18%; /* Dark slate for text */
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 18%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 18%;
+
+    /* Professional Primary Colors */
+    --primary-blue-hsl: 221 83% 53%; /* Modern blue #3B82F6 */
+    --primary-blue-foreground-hsl: 0 0% 100%;
+    --ring-blue-hsl: 221 83% 53%;
+
+    --primary-purple-hsl: 262 83% 58%; /* Modern purple #8B5CF6 */
+    --primary-purple-foreground-hsl: 0 0% 100%;
+    --ring-purple-hsl: 262 83% 58%;
+
+    --primary-emerald-hsl: 160 84% 39%; /* Modern emerald #10B981 */
+    --primary-emerald-foreground-hsl: 0 0% 100%;
+    --ring-emerald-hsl: 160 84% 39%;
+
+    --primary-rose-hsl: 346 77% 50%; /* Modern rose #F43F5E */
+    --primary-rose-foreground-hsl: 0 0% 100%;
+    --ring-rose-hsl: 346 77% 50%;
+
+    /* Default primary color */
+    --primary: var(--primary-blue-hsl);
+    --primary-foreground: var(--primary-blue-foreground-hsl);
+    --ring: var(--ring-blue-hsl);
+
+    /* Professional Secondary Colors */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 13% 18%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 220 14% 96%;
+    --accent-foreground: 220 13% 18%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+
+    /* Professional Chart Colors */
+    --chart-1: 221 83% 53%;
+    --chart-2: 262 83% 58%;
+    --chart-3: 160 84% 39%;
+    --chart-4: 346 77% 50%;
+    --chart-5: 43 96% 56%;
+    
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 220 13% 9%; /* Dark slate background */
+    --foreground: 220 14% 96%; /* Light slate for text */
+    
+    --card: 220 13% 11%; /* Slightly lighter than background */
+    --card-foreground: 220 14% 96%;
+    --popover: 220 13% 11%;
+    --popover-foreground: 220 14% 96%;
+    
+    /* Dark Mode Primary Colors - Override the main variables */
+    --primary-blue-hsl: 217 91% 60%;
+    --primary-blue-foreground-hsl: 0 0% 100%;
+    --ring-blue-hsl: 217 91% 60%;
+
+    --primary-purple-hsl: 263 70% 71%;
+    --primary-purple-foreground-hsl: 0 0% 100%;
+    --ring-purple-hsl: 263 70% 71%;
+
+    --primary-emerald-hsl: 158 64% 52%;
+    --primary-emerald-foreground-hsl: 0 0% 100%;
+    --ring-emerald-hsl: 158 64% 52%;
+
+    --primary-rose-hsl: 347 77% 50%;
+    --primary-rose-foreground-hsl: 0 0% 100%;
+    --ring-rose-hsl: 347 77% 50%;
+    
+    /* Override default primary color for dark mode */
+    --primary: var(--primary-blue-hsl);
+    --primary-foreground: var(--primary-blue-foreground-hsl);
+    --ring: var(--ring-blue-hsl);
+    
+    --secondary: 220 13% 16%;
+    --secondary-foreground: 220 14% 96%;
+    --muted: 220 13% 16%;
+    --muted-foreground: 220 9% 65%;
+
+    --accent: 220 13% 16%;
+    --accent-foreground: 220 14% 96%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 220 14% 96%;
+    --border: 220 13% 18%;
+    --input: 220 13% 18%;
+    
+    --chart-1: 217 91% 60%;
+    --chart-2: 263 70% 71%;
+    --chart-3: 158 64% 52%;
+    --chart-4: 347 77% 50%;
+    --chart-5: 43 96% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Modern Typography */
+  html.font-default body {
+    font-family: theme('fontFamily.sans');
+  }
+  
+  html.font-default .font-headline {
+    font-family: theme('fontFamily.sans');
+  }
+
+  html.font-modern body, 
+  html.font-modern .font-headline {
+    font-family: theme('fontFamily.sans');
+  }
+
+  html.font-classic body, 
+  html.font-classic .font-headline {
+    font-family: theme('fontFamily.serif');
+  }
+
+  html.font-system-sans body, 
+  html.font-system-sans .font-headline {
+    font-family: theme('fontFamily.sans');
+  }
+
+  html.font-system-serif body, 
+  html.font-system-serif .font-headline {
+    font-family: theme('fontFamily.serif');
+  }
+}
+
+/* Professional Component Styles */
+@layer components {
+  /* Modern Card Styles */
+  .card-modern {
+    @apply bg-card border border-border rounded-xl shadow-sm hover:shadow-md transition-all duration-200;
+  }
+  
+  .card-glass {
+    @apply bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-white/20 dark:border-slate-700/50 rounded-xl shadow-lg;
+  }
+  
+  .card-gradient {
+    @apply bg-gradient-to-br from-white to-slate-50 dark:from-slate-800 dark:to-slate-900 border border-border rounded-xl shadow-sm;
+  }
+
+  /* Professional Button Styles */
+  .btn-primary-modern {
+    @apply bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md;
+  }
+  
+  .btn-secondary-modern {
+    @apply bg-white dark:bg-slate-800 border border-border hover:bg-slate-50 dark:hover:bg-slate-700 text-foreground font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  }
+
+  /* Modern Input Styles */
+  .input-modern {
+    @apply bg-white dark:bg-slate-800 border border-border rounded-lg px-3 py-2 text-sm transition-all duration-200 focus:ring-2 focus:ring-primary/20 focus:border-primary;
+  }
+
+  /* Professional Navigation */
+  .nav-modern {
+    @apply bg-white/80 dark:bg-slate-800/80 backdrop-blur-md border-b border-border;
+  }
+
+  /* Modern List Styles */
+  .list-modern {
+    @apply space-y-2;
+  }
+  
+  .list-item-modern {
+    @apply bg-card hover:bg-slate-50 dark:hover:bg-slate-800/50 rounded-lg p-3 transition-all duration-200 border border-transparent hover:border-border;
+  }
+
+  /* Professional Status Indicators */
+  .status-success {
+    @apply bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800;
+  }
+  
+  .status-warning {
+    @apply bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800;
+  }
+  
+  .status-error {
+    @apply bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800;
+  }
+
+  /* Modern Loading States */
+  .loading-modern {
+    @apply animate-pulse bg-slate-200 dark:bg-slate-700 rounded;
+  }
+
+  /* Professional Animations */
+  .fade-in {
+    @apply animate-in fade-in duration-300;
+  }
+  
+  .slide-up {
+    @apply animate-in slide-in-from-bottom-4 duration-300;
+  }
+  
+  .scale-in {
+    @apply animate-in zoom-in-95 duration-200;
+  }
+}
+
+/* Hide bottom navigation on utility pages and detail pages */
+@layer utilities {
+  body[data-page="url-management"] nav[class*="fixed bottom-0"],
+  body[data-page="trash"] nav[class*="fixed bottom-0"],
+  body[data-page="settings"] nav[class*="fixed bottom-0"],
+  body[data-page="about"] nav[class*="fixed bottom-0"],
+  body[data-page="hymn-detail"] nav[class*="fixed bottom-0"],
+  body[data-page="reading-detail"] nav[class*="fixed bottom-0"] {
+    display: none !important;
+  }
+
+  /* Professional Scrollbar - Cross-browser compatible */
+  /* 
+   * Browser Support:
+   * - Firefox: scrollbar-width, scrollbar-color (Firefox 64+)
+   * - Webkit (Chrome, Safari, Edge): ::-webkit-scrollbar pseudo-elements
+   * - IE/Edge Legacy: Falls back to default scrollbar
+   */
+  .scrollbar-modern {
+    /* Fallback for older browsers */
+    overflow: auto;
+  }
+  
+  /* Firefox-specific scrollbar styling */
+  @supports (scrollbar-width: thin) {
+    .scrollbar-modern {
+      scrollbar-width: thin;
+      scrollbar-color: hsl(var(--muted-foreground)) transparent;
+    }
+  }
+  
+  /* Webkit browsers (Chrome, Safari, Edge) */
+  .scrollbar-modern::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .scrollbar-modern::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 3px;
+  }
+  
+  .scrollbar-modern::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--muted-foreground));
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background-clip: content-box;
+  }
+  
+  .scrollbar-modern::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(var(--foreground));
+  }
+  
+  .scrollbar-modern::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}

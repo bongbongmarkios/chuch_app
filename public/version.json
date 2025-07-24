@@ -1,0 +1,23 @@
+{
+  "version": "1.0.3",
+  "timestamp": "2024-12-19T12:12:31.000Z",
+  "changelog": "Updated program page with beautiful new design matching hymnal and readings pages",
+  "buildDate": "2024-12-19T12:12:31.000Z",
+  "platforms": {
+    "web": {
+      "downloadUrl": "/api/updates/download?version=1.0.3&platform=web",
+      "size": "2.5MB",
+      "checksum": "sha256:web-update-hash-1.0.3"
+    },
+    "android": {
+      "downloadUrl": "https://your-cdn.com/updates/app-1.0.3-android.zip",
+      "size": "3.1MB",
+      "checksum": "sha256:android-update-hash-1.0.3"
+    },
+    "ios": {
+      "downloadUrl": "https://your-cdn.com/updates/app-1.0.3-ios.zip",
+      "size": "3.1MB",
+      "checksum": "sha256:ios-update-hash-1.0.3"
+    }
+  }
+}
