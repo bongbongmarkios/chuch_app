@@ -31,7 +31,7 @@ Leader: Kay kinahanglan si Kristo maghari, tubtob malutos sang Dios ang tanan ng
 People: Ang gahom sa pagdumala sang kalibutan Iya na karon sang aton Ginoo kag sang iya Kristo, kag magahari sia sa walay katapusan.`,
     source: 'Heb. 1:1-2,8; Mat. 13:38, 45-49; I Cor. 15:24-25; Bug, 11:15',
     category: 'responsive-reading',
-    pageNumber: '217',
+    pageNumber: '218',
   },
   {
     id: '20002', // Updated ID
@@ -57,7 +57,7 @@ Leader: Agod mangin anak kamo sang inyo Amay nga yara sa langit. Kay wala sing k
 People: Gani, magmanginhimpit kamo, subong nga ang inyo Amay sa langit himpit`,
     source: 'Lucas 11:21; Cor. 8:6; salmo 103:13-14; Isa. 64:8; Mat. 7:9,11; 18:14;5:44-45, 48',
     category: 'responsive-reading',
-    pageNumber: '218',
+    pageNumber: '219',
   },
   {
     id: '20003',
@@ -83,7 +83,7 @@ Leader: Ang duta nakapatubas; ang Dios, nga aton Dios, nagbendisyon sa aton.
 People: And Dios nagbendisyon sa aton; kabay nga ang tanan nga, mga tawo bisan diin magtahod sa iya.`,
     source: 'Salmo 100:1-5:67:3-7',
     category: 'responsive-reading',
-    pageNumber: '219',
+    pageNumber: '220',
   },
   {
     id: '20004',
@@ -125,7 +125,7 @@ Leader: Ipahilayo man ako sa hayag nga mga sala, indi ako pag- ipadaog sa ila.
 People: Kabay pa nga mabaton mo ang akon mga pulong kag panghunahona, O Ginoo nga akon dalangpan kag Manunubos!`,
     source: 'Salmo 19',
     category: 'responsive-reading',
-    pageNumber: '220',
+    pageNumber: '221',
   },
   {
     id: '20005',
@@ -149,7 +149,7 @@ People: Sa pag-abot sang Espiritu Santo sa inyo, magabaton kamo sing gahom kag m
 Leader: Gani, yari kami karon nagahambal para kay Kristo. Kag subong nga ang Dios gid nagapakiluoy sa inyo paagi sa amon sa ngalan ni Kristo, nagapakiluoy man kami sa inyo nga pahanugutan ninyo ang Dios sang paghimo sa inyo nga mga abyan Niya bisan nga sang una mga kaaway Niya kamo!`,
     source: 'Mat. 28:16-20; Luc. 24:46-48 Bin. 1:8; II Cor. 5:20',
     category: 'responsive-reading',
-    pageNumber: '221',
+    pageNumber: '222',
   },
   {
     id: '20006',
@@ -177,7 +177,7 @@ People: Kamo man ginpatindog sa sadsaran nga ginpasad sang mga apostoles kag mga
 Leader: Sa inyo paghiusa sa iya, ginpatindog man kamo sing tingob upod sa iban nga mangin isa sa balay sa diin ang Dios naga kabuhi paagi sa iya Espiritu.`,
     source: 'II Cor. 5:17-20; Efeso 2:13-16; 19:20-22',
     category: 'responsive-reading',
-    pageNumber: '222',
+    pageNumber: '223',
   },
   {
     id: '20007',
@@ -205,7 +205,7 @@ People: Kay ginhatag sang Dios sa aton sing bugana ang Espiritu Santo, paagi kay
 Leader: Agod nga tungod sang Iya grasya mapakamatarung kita sa atubangan sang Dios, kag makaangkon sang kabuhi nga wala sing katapusan nga aton ginalauman.`,
     source: 'Rom. 3:23; 5:8; 3:24-26, 20;5:12-2; Tito 3:4-7',
     category: 'responsive-reading',
-    pageNumber: '223',
+    pageNumber: '224',
   },
   {
     id: '20008',
@@ -238,7 +238,7 @@ Leader: Indi ta pag-ibulang ang aton panulok sa kay Hesus, nga sa iya nasandig a
 `,
     source: '',
     category: 'responsive-reading',
-    pageNumber: '224',
+    pageNumber: '225',
   },
   {
     id: '20009',
@@ -274,7 +274,7 @@ People: Si Hesus nagdaku kag nagtubo sa kaalam kag nahamut-an sia sang Dios kag 
 `,
     source: '',
     category: 'responsive-reading',
-    pageNumber: '225',
+    pageNumber: '226',
   },
   {
     id: '20010',
@@ -305,7 +305,7 @@ People: Karon ikaw, anak ko, magpakalig-on ka paagi sa grasya nga nangin-aton sa
 `,
     source: 'I kag II Timoteo',
     category: 'responsive-reading',
-    pageNumber: '226',
+    pageNumber: '227',
   },
   {
     id: '20011',
@@ -338,7 +338,7 @@ Leader: Padunggi sia tungod sang tanan nga iya ginahimo. Bagay sia tahuron sang 
 `,
     source: 'Hulobaton 31',
     category: 'responsive-reading',
-    pageNumber: '227',
+    pageNumber: '228',
   },
   {
     id: '20012',
@@ -365,7 +365,7 @@ People: Indi sia mahamhaman sa pagpanaksi batok sa wala sing sala. Ang tawo nga 
 `,
     source: 'Salmo 1:15',
     category: 'responsive-reading',
-    pageNumber: '228',
+    pageNumber: '229',
   },
   {
     id: '20019',
@@ -392,7 +392,7 @@ People: Mga ginikanan, indi ninyo pagpaakiga ang inyo mga anak. Sa baylo, sagura
 `,
     source: 'Gen. 2:18; Mat. 19:6; Efeso 5:22-25, 28, 33; 6:12, 14',
     category: 'responsive-reading',
-    pageNumber: '229',
+    pageNumber: '230',
   },
   {
     id: '20020',
@@ -425,7 +425,7 @@ Leader: Magpapisan kamo sa inyo hilikuton para sa Ginoo, kay nahi-baluan gid nin
 `,
     source: 'Mat. 24:45-47; Luc. 16:10-13; Bug. 2:10; cor. 15:57-58',
     category: 'responsive-reading',
-    pageNumber: '230',
+    pageNumber: '231',
   },
   {
     id: '20021',
@@ -452,7 +452,7 @@ People: Ginasulat ko ini sa inyo, agod mahibaluan ninyo nga may kabuhi kamo nga 
 `,
     source: 'Juan 3:16 5:24; 10:27-29; 11:25-26; I Juan 5:11-13',
     category: 'responsive-reading',
-    pageNumber: '231',
+    pageNumber: '232',
   },
   {
     id: '21001',
@@ -577,7 +577,7 @@ People: Maghimaya sia sa akon, kay sia magabaton sang akon inug-siling kag iya i
 `,
     source: 'Juan 14:16-18, 26; 16:7-14',
     category: 'responsive-reading',
-    pageNumber: '232',
+    pageNumber: '233',
   },
   {
     id: '20017',
@@ -608,7 +608,7 @@ People: Matuod gid nga si Kristo ginbanhaw gikan sa mga minatay, kag sia amo ang
 `,
     source: 'Mat. 28:1-10; I Cor. 15:20',
     category: 'responsive-reading',
-    pageNumber: '233',
+    pageNumber: '234',
   },
   {
     id: '20018',
@@ -635,7 +635,7 @@ People: Sa Hari nga wala sing katapusan, di-mamalatyon kag di makita, ang isa la
 `,
     source: 'I Cor. 11:23-29; I tim. 1:17',
     category: 'responsive-reading',
-    pageNumber: '234',
+    pageNumber: '235',
   },
   {
     id: '20022',
@@ -660,7 +660,7 @@ Leader: Mga hinigugma ko, karon mga anak na kita sang Dios, ugaling indi pa maat
 `,
     source: 'Bin, 1:11; Mat. 24:42, 44; I Tes. 4:16-17; Tito 2:11-13; I Juan 3:2',
     category: 'responsive-reading',
-    pageNumber: '235',
+    pageNumber: '236',
   },
   {
     id: '20023',
@@ -687,7 +687,7 @@ People: Magpadayon kamo sa pagtubo sa grasya kag pagkilala sang aton Ginoo kag M
 `,
     source: 'Luc. 2:52; I Pedro 1:5-7; Fi1. 3:18-15; Col. 1:9-10; II Pedro 9:18',
     category: 'responsive-reading',
-    pageNumber: '236',
+    pageNumber: '237',
   },
   {
     id: '20024',
@@ -716,7 +716,7 @@ Leader: Magakalipay kag maghinugyaw kamo, tungod kay daku ang inyo balos sa lang
 `,
     source: 'Mat. 5:1-12',
     category: 'responsive-reading',
-    pageNumber: '237',
+    pageNumber: '238',
   },
   {
     id: '20025',
@@ -753,7 +753,7 @@ Leader: Sia ang ulo sang lawas nga amo ang iglesia. Sia amo ang gin-halinan sang
 `,
     source: 'Mat. 16:18-19; Bin. 2:41-42; I Cor. 12:27,12; Efeso 4:11-13; Col. 1:18',
     category: 'responsive-reading',
-    pageNumber: '238',
+    pageNumber: '239',
   },
   {
     id: '20026',
@@ -780,7 +780,7 @@ People: Subong maayo nga manugtatap sang nagakalainlain nga mga bugay sang Dios,
 `,
     source: 'Efeso 4:11-12; I Tim. 4:11-16; II Tim. 3:15; II Cor. 4:7; 1 Pedro 4:10',
     category: 'responsive-reading',
-    pageNumber: '240',
+    pageNumber: '241',
   },
   {
     id: '20027',
@@ -811,7 +811,7 @@ People: Kon may yara sa inyo nga kulang sa kaalam, dapat sia mag-pangamuyo sa Di
 `,
     source: 'Job 28:12-13, 15, 20, 23, 28; Hul. 3:13-17; Santiago 1:5',
     category: 'responsive-reading',
-    pageNumber: '241',
+    pageNumber: '242',
   },
   {
     id: '20028',
@@ -842,7 +842,7 @@ People: Ihatag ninyo sa Emperador ang para sa Emperador, kag ihatag sa Dios ang 
 `,
     source: 'Salmo 33: 12; Hul.:143:34; Rom. 18:1-5; I Pedro 2:13-14, 17; Mat. 22:21',
     category: 'responsive-reading',
-    pageNumber: '242',
+    pageNumber: '243',
   },
   {
     id: '20029',
@@ -871,7 +871,7 @@ Leader: Amo ini ang amon mensahe nga ang Dios nagahimo sang tanan nga mga tawo n
 `,
     source: 'Isa. 60:3; Rom. 10:12-15; Efeso 3:8-11; II Cor. 5:18-19',
     category: 'responsive-reading',
-    pageNumber: '243',
+    pageNumber: '244',
   },
   {
     id: '20030',
@@ -902,7 +902,7 @@ People: Sa pagtilipon sang tanan mo nga mga tawo, sa sulod sang imo templo sa Je
 `,
     source: 'Salmo 116',
     category: 'responsive-reading',
-    pageNumber: '244',
+    pageNumber: '245',
   },
   {
     id: '20031',
@@ -939,7 +939,7 @@ Leader: Kag dumdoma gid ninyo ini! Magaupod ako sa inyo sa gihapon tubtob sa kat
 `,
     source: 'Mat. 3:13-17; Rom. 6:4-6; Mat. 28:19-20',
     category: 'responsive-reading',
-    pageNumber: '245',
+    pageNumber: '246',
   },
   {
     id: '20032',
@@ -976,7 +976,7 @@ Leader: "Himaya sa Dios sa kahitaasan! Kag paghidait sa duta, sa mga tawo nga iy
 `,
     source: 'Lucas 2:1-14',
     category: 'responsive-reading',
-    pageNumber: '246',
+    pageNumber: '247',
   },
   {
     id: '20033',
@@ -1013,7 +1013,7 @@ Peopole: Ang akon halad, O Dios, amo ang mapinaubuson nga espiritu, ang mapinaub
 `,
     source: 'Salmo 51:1-13, 17',
     category: 'responsive-reading',
-    pageNumber: '247',
+    pageNumber: '248',
   },
   {
     id: '20034',
@@ -1048,7 +1048,7 @@ People: Ang tagsatagsa nga may iya sini nga paglaom kay Kristo nagaputli ang iya
 `,
     source: 'Salmo 8:1; Juan 3:1-3',
     category: 'responsive-reading',
-    pageNumber: '248',
+    pageNumber: '249',
   },
   {
     id: '20035',
@@ -1081,7 +1081,7 @@ People: Tanan kamo nga mga matarong, magkalipay kag maghinug-yaw, tungod sang mg
 `,
     source: 'Salmo 32',
     category: 'responsive-reading',
-    pageNumber: '249',
+    pageNumber: '250',
   },
   {
     id: '20036',
@@ -1108,7 +1108,7 @@ People: Gani indi kita magkahadlok sa pagpalapit sa trono sang Dios, sa din yara
 `,
     source: 'Mat. 7:7; Mar. 11:24-25; Juan 14:13-14; Rom. 8:26; Heb. 4:15-16',
     category: 'responsive-reading',
-    pageNumber: '250',
+    pageNumber: '251',
   },
   {
     id: '20037',
@@ -1138,7 +1138,7 @@ Leader: Kay ang makita umalagi lang.
 People: Pero ang indi makita wala sing katapusan.`,
     source: 'Rom. 8:18,26,28-30; II Cor. 1:3-4, 4:17-18',
     category: 'responsive-reading',
-    pageNumber: '251',
+    pageNumber: '252',
   },
   {
     id: '20038',
@@ -1164,7 +1164,7 @@ Leader: Gani sa tagsa ka tion nga may kahigayunan kita, maghimo kita sing maayo 
 People: Mga hinigugma, kon amo ini ang paghigugma sang Dios sa aton, dapat man kita maghigugmaanay.`,
     source: 'Rom. 12:9-10,18,15-18; Gal. 6:2,10; I Juan 4:11',
     category: 'responsive-reading',
-    pageNumber: '252',
+    pageNumber: '253',
   },
   {
     id: '20039',
@@ -1198,7 +1198,7 @@ Leader: Nga nagapamunga pa sa iya katigulangon.
 People: Nagapakita ini nga ang Ginoo matarong, wala sing sayop sa iya nga akon mangangapin.`,
     source: 'Salmo 92',
     category: 'responsive-reading',
-    pageNumber: '253',
+    pageNumber: '254',
   },
   {
     id: '20040',
@@ -1222,7 +1222,7 @@ People: Ang imo mga sugo amo ang akon mga pagkabutang nga wala sing katubtoban; 
 Leader: Kay ang bug-os nga Kasulatan ginbugna sang Dios kag mapus-lanon sa pagtudlo sang kamatuoran, sa pagsabdong sang sala, sa pagtadlong sang mga sayop kag sa pagtudlo sang matarong nga pagkabuhi.`,
     source: 'Salmo 119:12,11,14-16, 73, 105, 11 II Tim. 3:16-17',
     category: 'responsive-reading',
-    pageNumber: '254',
+    pageNumber: '255',
   },
   {
     id: '20041',
@@ -1252,7 +1252,7 @@ Leader: Kami amon nagawali nahanungod kay Kristo nga ginlansang sa krus. Ini nga
 People: Pero para sa mga tinawag sang Dios mga Judio ukon mga Gentil, si Kristo amo ang gahom kag ang kaalam sang Dios.`,
     source: 'Isa. 53:4-6; Rom. 5:6, 8; II cor. 5:21; I Pedro 1:8-19; 1 Cor. 1:18, 23-24',
     category: 'responsive-reading',
-    pageNumber: '255',
+    pageNumber: '256',
   },
   {
     id: '20042',
@@ -1278,7 +1278,7 @@ Leader: Ini para sa inyo, nga ginatipigan sang gahom sang Dios paagi sa pagtuo, 
 People: Kabay nga ang Dios nga ginagikanan sang paglaum, magpuno sa inyo sang bug-os nga kalipay kag paghida-et paagi sa inyo pagtuo sa Iya, agud nga ang inyo paglaum magpadayon sa pagtubo paagi sa paghandum sang Espiritu Santo.`,
     source: 'Panal. 3:24, 26; Rom. 8:24-25; Heb 6:19; I Juan 3:3, I Pedro 1:3-5; Rom. 13',
     category: 'responsive-reading',
-    pageNumber: '256',
+    pageNumber: '257',
   },
   {
     id: '20043',
@@ -1307,7 +1307,7 @@ People: Sa pagpatubo sang Kristohanon nga kaawa, balatyagon kag malulo nga pulul
 Leader: Nagasaad pa kita, nga kon magtaliwan kita sini nga duog magapakig-impon kita gilayon sa iban nga simbahan sa diin aton matuman ang espiritu sini nga kasugtanan kag pagtulon-an sang pulong sang Dios.`,
     source: '',
     category: 'responsive-reading',
-    pageNumber: '257',
+    pageNumber: '258',
   },
   {
     id: '20044',
@@ -1338,7 +1338,7 @@ Leader: Matuod gid, mga kautoran, wala ako nagahunahona nga nalambot ko na ini, 
 People: Gani nagadalagan ako sing tadlong padulong sa lalambuton agod madaog ko ang premyo, nga amo ang pagtawag sang Dios paagi kay Kristo Hesus sa kabuhi sa langit.`,
     source: '',
     category: 'responsive-reading',
-    pageNumber: '258',
+    pageNumber: '259',
   },
 ];
 

@@ -63,7 +63,8 @@ export default function AppHeader({ title, actions, hideDefaultActions, onRestar
   const [isReadingSearchOpen, setIsReadingSearchOpen] = useState(false);
   const [isProgramSearchOpen, setIsProgramSearchOpen] = useState(false);
   const [isUpdateDialogOpen, setIsUpdateDialogOpen] = useState(false);
-  const { updateInfo, checkForUpdates } = useAppUpdate();
+  const { updateInfo, updateProgress, checkForUpdates, downloadUpdate: downloadAndApplyUpdate } = useAppUpdate();
+  
   
   const router = useRouter();
   const pathname = usePathname();
@@ -1165,16 +1166,22 @@ export default function AppHeader({ title, actions, hideDefaultActions, onRestar
                 Check for Updates
               </Button>
               {updateInfo?.hasUpdate && (
-                <Button
-                  onClick={() => {
-                    // This would trigger the update download
-                    console.log('Starting update download...');
-                    setIsUpdateDialogOpen(false);
-                  }}
-                  className="flex-1"
-                >
-                  Update Now
-                </Button>
+                  <Button
+                    onClick={async () => {
+                      if (!updateInfo) return;
+                      try {
+                        await downloadAndApplyUpdate();
+                      } catch (error) {
+                        console.error('Update failed:', error);
+                      }
+                    }}
+                    disabled={updateProgress?.status === 'downloading' || updateProgress?.status === 'installing'}
+                    className="flex-1"
+                  >
+                    {updateProgress?.status === 'downloading' || updateProgress?.status === 'installing'
+                      ? updateProgress.message
+                      : 'Update Now'}
+                  </Button>
               )}
             </div>
           </div>

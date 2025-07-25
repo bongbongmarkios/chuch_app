@@ -1,0 +1,51 @@
+name: Build and Deploy Updates
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project and create update packages
+        env:
+          CHANGELOG: "Automated build from GitHub Actions"
+          MANDATORY_UPDATE: "false"
+          FEATURES: "New features here"
+          BUGFIXES: "Bug fixes here"
+          BREAKING_CHANGES: ""
+          UPDATE_SERVER: "https://your-update-server.com"
+        run: node scripts/deploy.js
+
+      - name: Upload update packages to CDN or server
+        # Replace this step with your actual deployment commands, e.g., upload to S3, FTP, etc.
+        run: |
+          echo "Uploading update packages to CDN or update server..."
+          # Example: aws s3 cp out/ s3://your-bucket/updates/ --recursive
+
+      - name: Set package version
+        run: echo "PACKAGE_VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_ENV
+
+      - name: Update backend environment or manifest
+        # Implement steps to update your backend API environment variables or manifest files
+        run: |
+          echo "Updating backend API with new version info..."
+          # Example: curl -X POST https://your-backend/api/update-version -d '{"version":"${{ env.PACKAGE_VERSION }}"}'
+
+      - name: Notify completion
+        run: echo "Build and deployment completed successfully."
