@@ -1,4 +1,4 @@
-export const READINGS_VERSION = 3;
+export const READINGS_VERSION = 4;
 
 import type { Reading } from '@/types';
 

@@ -2,7 +2,7 @@
 
 import AppHeader from '@/components/layout/AppHeader';
 import ReadingList from '@/components/readings/ReadingList';
-import { sampleReadings } from '@/data/readings';
+import { sampleReadings, READINGS_VERSION } from '@/data/readings';
 import { useState, useRef, useEffect } from 'react';
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
@@ -11,6 +11,7 @@ import { Sparkles, Bot, Heart, BookOpen, FileText } from 'lucide-react';
 // import FloatingAiButton from '@/components/ai/FloatingAiButton';
 
 const LOCAL_STORAGE_READINGS_KEY = 'graceNotesReadings';
+const LOCAL_STORAGE_VERSION_KEY = 'graceNotesReadingsVersion';
 
 export default function ReadingsPage() {
   const [readings, setReadings] = useState(sampleReadings);
@@ -36,9 +37,16 @@ export default function ReadingsPage() {
   }, []);
 
   useEffect(() => {
+    const storedVersion = localStorage.getItem(LOCAL_STORAGE_VERSION_KEY);
     const storedReadingsString = localStorage.getItem(LOCAL_STORAGE_READINGS_KEY);
-    if (storedReadingsString) {
+
+    if (storedReadingsString && storedVersion && parseInt(storedVersion, 10) === READINGS_VERSION) {
       setReadings(JSON.parse(storedReadingsString));
+    } else {
+      // Data is outdated or doesn't exist, use fresh data and update localStorage
+      setReadings(sampleReadings);
+      localStorage.setItem(LOCAL_STORAGE_READINGS_KEY, JSON.stringify(sampleReadings));
+      localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, READINGS_VERSION.toString());
     }
   }, []);
 
