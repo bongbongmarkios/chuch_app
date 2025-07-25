@@ -43,8 +43,18 @@ const updateManifest = {
   }
 };
 
-// Step 3: Create platform-specific builds
-console.log('\n📋 Step 3: Creating platform-specific builds...');
+// Step 3: Update native project versions
+console.log('\n📋 Step 3: Updating native project versions...');
+try {
+  execSync(`npx capacitor-set-version -v ${config.version} -b ${config.version}`, { stdio: 'inherit' });
+  console.log('✅ Native project versions updated successfully');
+} catch (error) {
+  console.error('❌ Failed to update native project versions:', error.message);
+  process.exit(1);
+}
+
+// Step 4: Create platform-specific builds
+console.log('\n📋 Step 4: Creating platform-specific builds...');
 config.platforms.forEach(platform => {
   console.log(`\n📱 Processing ${platform}...`);
   
